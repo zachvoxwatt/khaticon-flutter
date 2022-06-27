@@ -7,7 +7,7 @@ void main() => runApp(const FlutterTechDemo());
 class FlutterTechDemo extends StatelessWidget {
   const FlutterTechDemo({Key? key}) : super(key: key);
 
-  static const String _title = 'Flutter Code Sample';
+  static const String _title = 'Flutter Tech Demo';
 
   @override
   Widget build(BuildContext context) {
