@@ -9,10 +9,14 @@ class AppTitle extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         padding: const EdgeInsets.only(top: 52),
-        child: Text(_showStr,
-            style: const TextStyle(
+        child: const Text('Khaticon 2.0',
+            style: TextStyle(
                 fontSize: 42,
                 fontWeight: FontWeight.bold,
                 decoration: TextDecoration.underline)));
+  }
+
+  String getAppTitle() {
+    return _showStr;
   }
 }
